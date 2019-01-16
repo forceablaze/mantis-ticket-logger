@@ -45,7 +45,7 @@ def viewIssue(connector, issue, date):
             viewer.getDescription()))
 
     jsonObj['issue_id'] = viewer.getId()
-    jsonObj['state'] = viewer.getStateName()
+    jsonObj['state'] = viewer.getStatusName()
     jsonObj['category'] = viewer.getCategory()
     jsonObj['reporter'] = {}
     jsonObj['reporter']['id'] = viewer.getReporter()['id']
