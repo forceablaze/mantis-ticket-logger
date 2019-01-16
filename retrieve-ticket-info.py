@@ -35,7 +35,7 @@ def viewIssue(connector, issue, date):
           'submitted time: {}\n' \
           'Description: {}'.format(
             viewer.getId(),
-            viewer.getStateName(),
+            viewer.getStatusName(),
             viewer.getCategory(),
             viewer.getReporterName(),
             viewer.getReporterRealName(),
