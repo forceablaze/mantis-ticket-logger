@@ -1,0 +1,3 @@
+[submodule "mantis_utils"]
+	path = mantis_utils
+	url = https://github.com/forceablaze/mantis_utils.git
